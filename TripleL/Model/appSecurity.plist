@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>type</key>
+		<string>explanation</string>
+		<key>title</key>
+		<string>开启短密码保护后，退出应用时将自动锁定屏幕</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>normal</string>
+		<key>title</key>
+		<string>开启短密码保护</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>empty</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>normal</string>
+		<key>title</key>
+		<string>验证短密码</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>normal</string>
+		<key>title</key>
+		<string>修改短密码</string>
+	</dict>
+</array>
+</plist>

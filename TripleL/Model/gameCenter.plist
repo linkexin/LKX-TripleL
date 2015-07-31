@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict/>
+	<dict>
+		<key>name</key>
+		<string>数字拼图</string>
+		<key>gameAvater</key>
+		<string>game1.png</string>
+		<key>levelAvater</key>
+		<string>level.png</string>
+		<key>jumpto</key>
+		<string>FigurePuzzleViewController</string>
+		<key>level</key>
+		<array>
+			<string></string>
+			<string>简单</string>
+			<string>中等</string>
+			<string>困难</string>
+		</array>
+		<key>time</key>
+		<array>
+			<string></string>
+			<string>90</string>
+			<string>60</string>
+			<string>30</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>猜数字</string>
+		<key>gameAvater</key>
+		<string>game2.png</string>
+		<key>levelAvater</key>
+		<string>level.png</string>
+		<key>level</key>
+		<array>
+			<string></string>
+			<string>简单</string>
+			<string>中等</string>
+			<string>困难</string>
+		</array>
+		<key>time</key>
+		<array/>
+	</dict>
+</array>
+</plist>

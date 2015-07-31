@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>type</key>
+		<string>empty</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>normal</string>
+		<key>title</key>
+		<string>允许未解锁用户发出申请</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>empty</string>
+		<key>withoutLine</key>
+		<string>YES</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>explanation</string>
+		<key>title</key>
+		<string>解锁详细信息后，好友验证模式：</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>normal</string>
+		<key>title</key>
+		<string>直接添加为好友</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>normal</string>
+		<key>title</key>
+		<string>需要向我申请</string>
+	</dict>
+</array>
+</plist>

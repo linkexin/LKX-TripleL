@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14E11f" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ChatRec" representedClassName="ChatRec" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="from" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fromMe" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="length" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="media" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="to" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="whoseChatRec" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Friend" inverseName="chatRec" inverseEntity="Friend" syncable="YES"/>
+    </entity>
+    <entity name="Friend" representedClassName="Friend" syncable="YES">
+        <attribute name="avatar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mood" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nickname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remarkname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="chatRec" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="ChatRec" inverseName="whoseChatRec" inverseEntity="ChatRec" syncable="YES"/>
+        <relationship name="whoseFriend" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="User" inverseName="friends" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="MsgRec" representedClassName="MsgRec" syncable="YES">
+        <attribute name="count" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="whoseMsgRec" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="User" inverseName="msgRec" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="Setting" representedClassName="Setting" syncable="YES">
+        <attribute name="audio" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="msgShowDetail" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="nightModal" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="recNewMsg" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="shock" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="whoseSetting" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="User" inverseName="setting" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="avatar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nickname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="friends" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Friend" inverseName="whoseFriend" inverseEntity="Friend" syncable="YES"/>
+        <relationship name="msgRec" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="MsgRec" inverseName="whoseMsgRec" inverseEntity="MsgRec" syncable="YES"/>
+        <relationship name="setting" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Setting" inverseName="whoseSetting" inverseEntity="Setting" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ChatRec" positionX="-200" positionY="-114" width="128" height="193"/>
+        <element name="Friend" positionX="-27" positionY="54" width="128" height="150"/>
+        <element name="MsgRec" positionX="-452" positionY="-16" width="128" height="120"/>
+        <element name="Setting" positionX="-515" positionY="263" width="128" height="133"/>
+        <element name="User" positionX="-263" positionY="153" width="128" height="133"/>
+    </elements>
+</model>

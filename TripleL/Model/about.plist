@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict/>
+	</array>
+	<array>
+		<dict/>
+		<dict>
+			<key>avatar</key>
+			<string>lbk.png</string>
+			<key>name</key>
+			<string>Bay、栢</string>
+			<key>major</key>
+			<string>青岛大学信息安全</string>
+			<key>responsibility</key>
+			<string>客户端</string>
+		</dict>
+		<dict>
+			<key>avatar</key>
+			<string>ly.png</string>
+			<key>name</key>
+			<string>virusdefender</string>
+			<key>major</key>
+			<string>青岛大学软件工程</string>
+			<key>responsibility</key>
+			<string>后端</string>
+		</dict>
+		<dict>
+			<key>avatar</key>
+			<string>lkx.png</string>
+			<key>name</key>
+			<string>林扣星</string>
+			<key>major</key>
+			<string>青岛大学信息安全</string>
+			<key>responsibility</key>
+			<string>客户端</string>
+		</dict>
+		<dict>
+			<key>avatar</key>
+			<string>zpp.jpg</string>
+			<key>name</key>
+			<string>半温度</string>
+			<key>major</key>
+			<string>湖南文理学院视觉传达</string>
+			<key>responsibility</key>
+			<string>美工</string>
+		</dict>
+	</array>
+	<array>
+		<dict/>
+		<dict>
+			<key>avatar</key>
+			<string>defaultphoto.jpg</string>
+			<key>name</key>
+			<string>李建波</string>
+			<key>major</key>
+			<string>青岛大学软件工程</string>
+			<key>responsibility</key>
+			<string>指导教师</string>
+		</dict>
+	</array>
+</array>
+</plist>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>type</key>
+		<string>explanation</string>
+		<key>title</key>
+		<string>好友只有通过了解锁游戏后，才能查看到你的详细资料</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>normal</string>
+		<key>title</key>
+		<string>解锁游戏设置</string>
+		<key>withDetail</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>normal</string>
+		<key>title</key>
+		<string>加好友设置</string>
+		<key>withDetail</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>empty</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>normal</string>
+		<key>withDetail</key>
+		<string>1</string>
+		<key>title</key>
+		<string>修改密码</string>
+	</dict>
+</array>
+</plist>

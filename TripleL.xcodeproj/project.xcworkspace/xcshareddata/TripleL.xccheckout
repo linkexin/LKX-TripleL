@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EDF18D35-9F1B-450C-820D-9E95AA6D292B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TripleL</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4C9682F67C211DB18D3CDA8E3D8B4EF553F00A61</key>
+		<string>https://git.coding.net/tbl00c/TripleL.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TripleL.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4C9682F67C211DB18D3CDA8E3D8B4EF553F00A61</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git.coding.net/tbl00c/TripleL.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4C9682F67C211DB18D3CDA8E3D8B4EF553F00A61</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4C9682F67C211DB18D3CDA8E3D8B4EF553F00A61</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E5%AF%BB%E8%A7%85%E2%80%94iOS%E5%AE%A2%E6%88%B7%E7%AB%AF</string>
+		</dict>
+	</array>
+</dict>
+</plist>

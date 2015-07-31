@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>type</key>
+			<string>empty</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>normal</string>
+			<key>title</key>
+			<string>接收新消息通知</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>normal</string>
+			<key>title</key>
+			<string>通知显示消息详情</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>type</key>
+			<string>empty</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>normal</string>
+			<key>title</key>
+			<string>声音</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>normal</string>
+			<key>title</key>
+			<string>震动</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>empty</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>normal</string>
+			<key>title</key>
+			<string>夜间防打扰模式</string>
+		</dict>
+		<dict>
+			<key>withoutLine</key>
+			<string>YES</string>
+			<key>type</key>
+			<string>explanation</string>
+			<key>title</key>
+			<string>开启夜间防打扰模式，在22:00-07:00间不会发出任何提醒。</string>
+		</dict>
+	</array>
+</array>
+</plist>
