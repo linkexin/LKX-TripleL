@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6D116632FF71A59545C4FE255950BF392B44D689",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4C9682F67C211DB18D3CDA8E3D8B4EF553F00A61" : 0,
+    "6D116632FF71A59545C4FE255950BF392B44D689" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EDF18D35-9F1B-450C-820D-9E95AA6D292B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4C9682F67C211DB18D3CDA8E3D8B4EF553F00A61" : "%E5%AF%BB%E8%A7%85%E2%80%94iOS%E5%AE%A2%E6%88%B7%E7%AB%AF",
+    "6D116632FF71A59545C4FE255950BF392B44D689" : "LKX-TripleL\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TripleL",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TripleL.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/tbl00c\/TripleL.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4C9682F67C211DB18D3CDA8E3D8B4EF553F00A61"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/linkexin\/LKX-TripleL.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6D116632FF71A59545C4FE255950BF392B44D689"
+    }
+  ]
+}
