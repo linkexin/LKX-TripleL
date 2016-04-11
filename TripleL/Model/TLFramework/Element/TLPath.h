@@ -13,8 +13,8 @@
 
 //#define     PATH_HOST               @"http://192.168.1.116:8000"
 //#define     PATH_SOCKET_HOST        @"ws://121.42.32.129:8888/ws"     // socket 服务器
-#define     PATH_HOST               @"http://server.tmqdu.com"          // 服务器
-#define     PATH_SOCKET_HOST        @"ws://121.42.32.129:8888/ws"     // socket 服务器
+#define     PATH_HOST               @"http://chat.virusdefender.net"          // 服务器http://server.tmqdu.com
+#define     PATH_SOCKET_HOST        @"ws://139.129.117.4:8888/ws"     // socket 服务器
 
 #define     PATH_LOGIN              @"/login/"                          // 登陆
 #define     PATH_REGISTER           @"/register/"                       // 注册
