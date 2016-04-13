@@ -19,7 +19,9 @@
 - (void) refreshInfoFinishedWithStatus: (BOOL) status;
 
 @end
-
+/**
+ *  注册、登录、更新用户信息相关
+ */
 @interface TLStream : NSObject
 
 @property (nonatomic, strong) id<TLStreamDelegate>delegate;
