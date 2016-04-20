@@ -2296,11 +2296,12 @@
 		C2466BDA1ADB75D6001A0317 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "李伯坤";
 				TargetAttributes = {
 					C2466BE11ADB75D6001A0317 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 9DRNVMMN6F;
 					};
 					C2466BFA1ADB75D6001A0317 = {
 						CreatedOnToolsVersion = 6.2;
@@ -2778,9 +2779,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (CV544A9ET4)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (9M96B3D5K7)";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2822,10 +2825,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (CV544A9ET4)";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (9M96B3D5K7)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Wei Feng Hou (9M96B3D5K7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wei Feng Hou (9M96B3D5K7)";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -2852,7 +2856,7 @@
 			baseConfigurationReference = 28280796162CE31A31FF9DD4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (CV544A9ET4)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (9M96B3D5K7)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TripleL/Frameworks",
@@ -2862,6 +2866,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TripleL.xunmi;
 				PRODUCT_NAME = "寻觅";
 			};
 			name = Debug;
@@ -2871,9 +2876,9 @@
 			baseConfigurationReference = 43E48DAA4E6E900DCAE94494 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (CV544A9ET4)";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (9M96B3D5K7)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Wei Feng Hou (9M96B3D5K7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wei Feng Hou (9M96B3D5K7)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TripleL/Frameworks",
@@ -2883,6 +2888,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TripleL.xunmi;
 				PRODUCT_NAME = "寻觅";
 			};
 			name = Release;
@@ -2901,6 +2907,7 @@
 				);
 				INFOPLIST_FILE = TripleLTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tbl00c.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripleL.app/TripleL";
 			};
@@ -2916,6 +2923,7 @@
 				);
 				INFOPLIST_FILE = TripleLTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tbl00c.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripleL.app/TripleL";
 			};
