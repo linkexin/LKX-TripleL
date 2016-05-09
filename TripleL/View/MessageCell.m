@@ -60,8 +60,8 @@
         mSize = [_messageLabel sizeThatFits:mSize];
         
         w = frame.size.width - x - FREESIZE * 3;
-        [_nameLabel setFrame:CGRectMake(x, frame.size.height / 2.0 - size.height * 1.1, w - FREESIZE * 4, size.height)];
-        [_messageLabel setFrame:CGRectMake(x, frame.size.height / 2.0 * 1.15, w, mSize.height)];
+        [_nameLabel setFrame:CGRectMake(x, frame.size.height / 2.0 - size.height, w - FREESIZE * 4, size.height)];
+        [_messageLabel setFrame:CGRectMake(x, frame.size.height / 2.0, w, mSize.height)];
 
         
         int choose = ((NSString *)[[NSUserDefaults standardUserDefaults] objectForKey:@"fontStyle"]).intValue;

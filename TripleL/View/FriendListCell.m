@@ -104,7 +104,7 @@
     [_statusAndDistanceLabel setFrame:CGRectMake(rect.size.width - FREESIZE - size.width, FREESIZE, size.width, size.height)];
 
     int choose = ((NSString *)[[NSUserDefaults standardUserDefaults] objectForKey:@"fontStyle"]).intValue;
-    if (choose == 0) {
+    if (choose != 0) {
         // 用户昵称
         size = [_nameLabel sizeThatFits:CGSizeMake(rect.size.width, MAXFLOAT)];
         y = rect.size.height * 0.125;

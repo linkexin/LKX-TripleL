@@ -2779,7 +2779,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (9M96B3D5K7)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 275237966@qq.com (59T5T5DT4U)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
@@ -2825,9 +2825,9 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (9M96B3D5K7)";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Wei Feng Hou (9M96B3D5K7)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wei Feng Hou (9M96B3D5K7)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 275237966@qq.com (59T5T5DT4U)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: 275237966@qq.com (59T5T5DT4U)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 275237966@qq.com (59T5T5DT4U)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -2856,7 +2856,7 @@
 			baseConfigurationReference = 28280796162CE31A31FF9DD4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (9M96B3D5K7)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 275237966@qq.com (59T5T5DT4U)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TripleL/Frameworks",
@@ -2876,9 +2876,9 @@
 			baseConfigurationReference = 43E48DAA4E6E900DCAE94494 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (9M96B3D5K7)";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Wei Feng Hou (9M96B3D5K7)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wei Feng Hou (9M96B3D5K7)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 275237966@qq.com (59T5T5DT4U)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: 275237966@qq.com (59T5T5DT4U)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 275237966@qq.com (59T5T5DT4U)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TripleL/Frameworks",
